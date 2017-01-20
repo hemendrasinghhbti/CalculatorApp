@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     var selectNumber = Int()
     
     var method = Int()
+    ////
     var totalRunning = Float()
     
     override func viewDidLoad() {
