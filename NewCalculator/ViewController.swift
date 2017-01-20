@@ -194,6 +194,7 @@ class ViewController: UIViewController {
                 totalRunning = totalRunning - Float(selectNumber)
                 break;
             default :
+                
                 break;
             }
         }
