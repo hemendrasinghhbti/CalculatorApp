@@ -71,9 +71,7 @@ class ViewController: UIViewController {
         var frameRect:  CGRect = screenText.frame
         frameRect.size.height = 100
         
-        //New Test for branch HB
-        
-        //test for HB_Test branch..
+        //New Test for branch HB_ Again
         screenText.frame = frameRect
     }
 
