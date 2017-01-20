@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     var selectNumber = Int()
     
     var method = Int()
-    ////
+    //// no changes..
     var totalRunning = Float()
     
     override func viewDidLoad() {
@@ -70,7 +70,9 @@ class ViewController: UIViewController {
         bEql.layer.borderWidth = 1.0
         bEql.layer.borderColor = UIColor.grayColor().CGColor*/
         var frameRect:  CGRect = screenText.frame
-        frameRect.size.height = 100
+        
+        
+        //frameRect.size.height = 100
         
         screenText.frame = frameRect
     }
