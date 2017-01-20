@@ -34,6 +34,7 @@ class ViewController: UIViewController {
     var totalRunning = Float()
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
       /*  b1.layer.borderWidth = 0.5
         b1.layer.borderColor = UIColor.grayColor().CGColor
