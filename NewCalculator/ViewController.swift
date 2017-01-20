@@ -70,6 +70,7 @@ class ViewController: UIViewController {
         bEql.layer.borderColor = UIColor.grayColor().CGColor*/
         var frameRect:  CGRect = screenText.frame
         frameRect.size.height = 100
+        
         screenText.frame = frameRect
     }
 
