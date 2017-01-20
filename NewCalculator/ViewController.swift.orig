@@ -71,10 +71,13 @@ class ViewController: UIViewController {
         var frameRect:  CGRect = screenText.frame
         frameRect.size.height = 100
         
-        //Test for HB Branch...
-        
+<<<<<<< HEAD
+        //New Test for branch HB_ Again
+=======
         //test for HB_Test branch..
+>>>>>>> ea033623e783ef4010b279164d4101c89ce031e1
         screenText.frame = frameRect
+        //Test for HB_Test branch_ Again
     }
 
     override func didReceiveMemoryWarning() {
