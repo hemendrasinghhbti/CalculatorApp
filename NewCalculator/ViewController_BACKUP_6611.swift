@@ -70,12 +70,14 @@ class ViewController: UIViewController {
         bEql.layer.borderColor = UIColor.grayColor().CGColor*/
         var frameRect:  CGRect = screenText.frame
         frameRect.size.height = 100
+<<<<<<< HEAD
         
-        //New Test for branch HB
+        //Test for HB Branch...
         
+=======
         //test for HB_Test branch..
+>>>>>>> 74e120dd5670680048ba33328e704e51bf92f21b
         screenText.frame = frameRect
-        //Test for HB_Test branch
     }
 
     override func didReceiveMemoryWarning() {

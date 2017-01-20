@@ -31,7 +31,6 @@ class ViewController: UIViewController {
     var selectNumber = Int()
     
     var method = Int()
-    //// no changes..
     var totalRunning = Float()
     
     override func viewDidLoad() {
@@ -70,17 +69,16 @@ class ViewController: UIViewController {
         bEql.layer.borderWidth = 1.0
         bEql.layer.borderColor = UIColor.grayColor().CGColor*/
         var frameRect:  CGRect = screenText.frame
-        
-<<<<<<< HEAD
-        
-        //frameRect.size.height = 100
-=======
         frameRect.size.height = 100
->>>>>>> ad3c6285438f82f4ea348b0d7eb037230d28db74
+<<<<<<< HEAD
+=======
         
-        //new test changes....
+        //New Test for branch HB
         
+        //test for HB_Test branch..
+>>>>>>> f6701da45b26d9e3ef6b3f276fb1583ae55cfeb9
         screenText.frame = frameRect
+        //Test for HB_Test branch
     }
 
     override func didReceiveMemoryWarning() {
