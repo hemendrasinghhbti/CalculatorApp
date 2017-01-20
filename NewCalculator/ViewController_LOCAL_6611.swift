@@ -73,7 +73,6 @@ class ViewController: UIViewController {
         
         //Test for HB Branch...
         
-        //test for HB_Test branch..
         screenText.frame = frameRect
     }
 
