@@ -71,6 +71,8 @@ class ViewController: UIViewController {
         
         frameRect.size.height = 100
         
+        //new test changes....
+        
         screenText.frame = frameRect
     }
 
